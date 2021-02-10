@@ -20,10 +20,10 @@
                 </ol>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <a href="#"><img class="d-block w-100" src="https://picsum.photos/1800/800" alt="Primero"></a>
+                        <a href="{{ route('inicio') }}"><img class="d-block w-100" src="{{ asset('img/BannerFacebook.jpg') }}" alt="Primero"></a>
                     </div>
                     <div class="carousel-item">
-                        <a href="#"><img class="d-block w-100" src="https://picsum.photos/1800/800" alt="Segundo"></a>
+                        <a href="#"><img class="d-block w-100" src="https://picsum.photos/2378/1020" alt="Segundo"></a>
                     </div>
                 </div>
                 <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">

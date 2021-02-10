@@ -15,24 +15,24 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('construcion');
+});//->name('inicio');
+
+Route::get('/teste', function () {
+    return view('inicio');
 })->name('inicio');
 
-// Route::get('/', function () {
-//     return view('inicio');
-// })->name('inicio');
+Route::get('/empresa', function () {
+    return view('empresa');
+})->name('empresa');
 
-// Route::get('/empresa', function () {
-//     return view('empresa');
-// })->name('empresa');
+Route::get('/servicios', function () {
+    return view('servicios');
+})->name('servicios');
 
-// Route::get('/servicios', function () {
-//     return view('servicios');
-// })->name('servicios');
+Route::get('/contacto', function () {
+    return view('contacto');
+})->name('contacto');
 
-// Route::get('/contacto', function () {
-//     return view('contacto');
-// })->name('contacto');
+Auth::routes(['verify' => true]);
 
-// Auth::routes(['verify' => true]);
-
-// Route::get('/home', 'HomeController@index')->name('home')->middleware('verified');;
+Route::get('/home', 'HomeController@index')->name('home')->middleware('verified');;
