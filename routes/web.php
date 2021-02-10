@@ -14,21 +14,25 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('inicio');
+    return view('construcion');
 })->name('inicio');
 
-Route::get('/empresa', function () {
-    return view('empresa');
-})->name('empresa');
+// Route::get('/', function () {
+//     return view('inicio');
+// })->name('inicio');
 
-Route::get('/servicios', function () {
-    return view('servicios');
-})->name('servicios');
+// Route::get('/empresa', function () {
+//     return view('empresa');
+// })->name('empresa');
 
-Route::get('/contacto', function () {
-    return view('contacto');
-})->name('contacto');
+// Route::get('/servicios', function () {
+//     return view('servicios');
+// })->name('servicios');
 
-Auth::routes(['verify' => true]);
+// Route::get('/contacto', function () {
+//     return view('contacto');
+// })->name('contacto');
 
-Route::get('/home', 'HomeController@index')->name('home')->middleware('verified');;
+// Auth::routes(['verify' => true]);
+
+// Route::get('/home', 'HomeController@index')->name('home')->middleware('verified');;
