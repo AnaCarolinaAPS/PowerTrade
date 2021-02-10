@@ -57,11 +57,10 @@
 <section class="fondo-extra font-white">
     <div class="container">
         <div class="row justify-content-center align-items-center" style="padding: 50px 0px;">
-            <div class="col-md-5">
-                <img src="img/logo2.png" class="img-responsive" style="max-width: 400px;">
+            <div class="col-md-5 text-center">
+                <img src="img/logo2.png" class="img-responsive logo">
             </div>
             <div class="col-md-5 text-center">
-                {{-- <h2><b></b></h2> --}}
                 <p>Con nuestras soluciones en logistíca los repuestos que siempre soñaste montar en tu vehículo están a tan solo un click de distancia!</p>
                 <p>Recibimos sus repuestos en Miami EE.UU de Lunes a Viernes de 9:00 hs hasta 17:00 hs.<br>
                 Contamos con 1 vuelo semanal que sale de Miami EE.UU el fin de semana y llega a Ciudad del Este los Lunes.</p>
@@ -139,7 +138,6 @@
                     <div class="item"><a href="{{ url("https://www.summitracing.com/") }}" target="_blank"><img src="{{ asset("img/logo/summitracing.png") }}" /></a></div>
                     <div class="item"><a href="{{ url("https://www.jegs.com/") }}" target="_blank"><img src="{{ asset("img/logo/jegs.png") }}" /></a></div>
                     <div class="item"><a href="{{ url("https://www.ecstuning.com/") }}" target="_blank"><img src="{{ asset("img/logo/ecstunning.png") }}" /></a></div>
-                    <div class="item"><a href="{{ url("https://www.atechmotorsports.com/") }}" target="_blank"><img src="{{ asset("img/logo/atechmotorsports.png") }}" /></a></div>
                     <div class="item"><a href="{{ url("https://www.crower.com/") }}" target="_blank"><img src="{{ asset("img/logo/crower.png") }}" /></a></div>
                     <div class="item"><a href="{{ url("https://www.rockauto.com/") }}" target="_blank"><img src="{{ asset("img/logo/rockauto.jpg") }}" /></a></div>
                     <div class="item"><a href="{{ url("https://py.ebay.com/b/Auto-Parts-Accessories/6028/bn_569479") }}" target="_blank"><img src="{{ asset("img/logo/ebay.png") }}" /></a></div>
@@ -152,7 +150,7 @@
     </div>
 </section>
 
-<section class="">
+<section class="contactos">
     <div class="container">
         <div class="row justify-content-center" style="padding: 50px 0px; ">
             <div class="col-md-10 text-center" style="padding-bottom: 25px; ">

@@ -6,7 +6,7 @@
     <div class="container">
         <div class="row justify-content-center align-items-center" style="padding: 50px 0px;">
             <div class="col-md-12 text-center">
-                <img src="img/logo.png" alt="" style="max-width: 20vw;">
+                <img src="img/logo.png" alt="" class="logo-titulo">
             </div>
         </div>
     </div>

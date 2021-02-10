@@ -197,6 +197,13 @@ hr{
     margin: 35px;
 }
 
+.logo {
+    max-width: 400px;
+}
+
+.logo-titulo {
+    max-width: 20vw;
+}
 /*FOOTER*/
 footer {
 	background-color: #00073a;/*#727476;*/
@@ -210,14 +217,12 @@ footer {
 		text-decoration: none;
 		color: #0a6486; /*#00bcd4;*/ /*#abb7b7;*/
 	}
-
     footer .social-icons {
         font-size: 1.2em;
     }
     footer .social-icons a {
         padding: 0px 5px;
     }
-
     footer .subrodape {
         padding: 15px 150px;
     }
@@ -227,11 +232,13 @@ footer {
     footer .subrodape p{
         font-size: 1.15em;
     }
-
 	footer .rodape {
 		background-color: #019BD8; /*#00122a;*/
 		padding: 10px 150px;
 	}
+    footer .subrodape img {
+        max-width: 90%;
+    }
 
 article,
 aside,
@@ -11086,3 +11093,66 @@ a.text-dark:focus {
   }
 }
 
+@media(max-width: 574px) {
+    .section-title {
+        font-size: 1.6em;
+    }
+    section p {
+        font-size: 0.8em;
+    }
+    .logo{
+        padding-bottom: 15px;
+        max-width: 90%;
+    }
+    .logo-titulo {
+        max-width: 90%;
+    }
+    section {
+        padding: 15px 15px;
+    }
+    .servicios-cards{
+        padding-bottom: 15px;
+    }
+    .contactos .col-md-4{
+        padding-bottom: 15px;
+    }
+    .servicios-cards .col-md-4{
+        padding-bottom: 15px;
+    }
+    .contactos h3 {
+        font-size: 1.5em;
+    }
+    .contactos p {
+        font-size: 1.0em;
+    }
+    .section-contacto p{
+        font-size: 1.0em;
+    }
+    iframe {
+        max-width: 100%;
+        max-height: 50vh;
+        margin-bottom: 20px;
+    }
+    .owl-carousel .item {
+        width: 90%;
+        margin: 20px 0px;
+    }
+    footer .social-icons {
+        font-size: 1.6em;
+    }
+    footer .rodape {
+		padding: 10px 15px;
+	}
+    footer .subrodape {
+        padding: 15px 15px;
+    }
+    footer .subrodape p{
+        font-size: 1.0em;
+    }
+    footer .subrodape h3{
+        font-size: 1.5em;
+    }
+    footer .subrodape img {
+        padding: 20px 0px;
+    }
+}

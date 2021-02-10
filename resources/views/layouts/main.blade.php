@@ -109,7 +109,7 @@
     <footer class="container-fluid">
         <div class="row subrodape align-items-center">
             <div class="col-md-4 text-center">
-                <img src="{{ asset('img/logo2.png')}}" class="img-responsive" style="max-width: 300px;">
+                <img src="{{ asset('img/logo2.png')}}" class="img-responsive">
             </div>
             <div class="col-md-3 text-center">
                 {{-- <h3>Nuestra Empresa</h3> --}}

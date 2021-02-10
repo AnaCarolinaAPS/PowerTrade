@@ -6,7 +6,7 @@
     <div class="container">
         <div class="row justify-content-center align-items-center" style="padding: 50px 0px;">
             <div class="col-md-12 text-center">
-                <img src="img/logo.png" alt="" style="max-width: 20vw;">
+                <img src="img/logo.png" alt="" class="logo-titulo">
             </div>
         </div>
     </div>
@@ -24,7 +24,7 @@
 <section class="fondo-centro font-black">
     <div class="container">
         <div class="row justify-content-center align-items-center" style="padding: 50px 0px;">
-            <div class="col-md-4">
+            <div class="col-md-4 servicios-cards">
                 <div class="card">
                     <div class="card-body text-center">
                         <img src="img/air-filter.jpg" class="img-responsive" style="width: 100%;">
@@ -36,7 +36,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 servicios-cards">
                 <div class="card">
                     <div class="card-body text-center">
                         <img src="img/car-wheels.jpg" class="img-responsive" style="width: 100%;">
@@ -49,7 +49,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 servicios-cards">
                 <div class="card">
                     <div class="card-body text-center">
                         <img src="img/engine.jpg" class="img-responsive" style="width: 100%;">
@@ -78,7 +78,7 @@
     <div class="container">
         <div class="row justify-content-center" style="padding: 50px 0px; ">
             {{-- <div class="col-md-10"> --}}
-                <div class="col-md-4">
+                <div class="col-md-4 servicios-cards">
                     <div class="card">
                         <div class="card-body text-center">
                             <span class="icon"><i class="fa fa-user-plus"></i></span>
@@ -89,7 +89,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 servicios-cards">
                     <div class="card">
                         <div class="card-body text-center">
                             <span class="icon"><i class="fa fa-shopping-basket"></i></span>
@@ -100,7 +100,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 servicios-cards">
                     <div class="card">
                         <div class="card-body text-center">
                             <span class="icon"><i class="fa fa-dropbox"></i></span>
@@ -155,7 +155,6 @@
                     <div class="item"><a href="{{ url("https://www.summitracing.com/") }}" target="_blank"><img src="{{ asset("img/logo/summitracing.png") }}" /></a></div>
                     <div class="item"><a href="{{ url("https://www.jegs.com/") }}" target="_blank"><img src="{{ asset("img/logo/jegs.png") }}" /></a></div>
                     <div class="item"><a href="{{ url("https://www.ecstuning.com/") }}" target="_blank"><img src="{{ asset("img/logo/ecstunning.png") }}" /></a></div>
-                    <div class="item"><a href="{{ url("https://www.atechmotorsports.com/") }}" target="_blank"><img src="{{ asset("img/logo/atechmotorsports.png") }}" /></a></div>
                     <div class="item"><a href="{{ url("https://www.crower.com/") }}" target="_blank"><img src="{{ asset("img/logo/crower.png") }}" /></a></div>
                     <div class="item"><a href="{{ url("https://www.rockauto.com/") }}" target="_blank"><img src="{{ asset("img/logo/rockauto.jpg") }}" /></a></div>
                     <div class="item"><a href="{{ url("https://py.ebay.com/b/Auto-Parts-Accessories/6028/bn_569479") }}" target="_blank"><img src="{{ asset("img/logo/ebay.png") }}" /></a></div>
