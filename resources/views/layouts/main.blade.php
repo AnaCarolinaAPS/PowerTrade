@@ -3,6 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="image_src" href="http://www.powertrade.com.py/img/PowerTradeLogo.png">
     <!-- MS Tile - for Microsoft apps-->
     <meta name="msapplication-TileImage" content="http://www.powertrade.com.py/img/PowerTradeLogo.png">
     {{-- for google --}}
