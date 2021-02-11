@@ -3,6 +3,20 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    {{-- for google --}}
+    <meta name="application-name" content="Power Trade PY">
+    <meta name="Keywords" content="powertrade, power trade, power trade.py, ciudad del este, courier, importación de repuestos, repuestos de vehículos">
+    {{-- for facebook --}}
+    <meta name="og:title" content="Power Trade PY">
+    <meta name="og:type" content="website">
+    <meta name="og:image" content="{{ asset('img/favicon.png') }}">
+    <meta name="og:url" content="www.powertrade.com.py">
+    <meta name="og:description" content="Courier especializado en importación de repuestos de vehículos.">
+    {{-- for twitter --}}
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Power Trade PY">
+    <meta name="twitter:image" content="{{ asset('img/favicon.png') }}">
+    <meta name="twitter:description" content="Courier especializado en importación de repuestos de vehículos.">
 
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
@@ -44,7 +58,6 @@
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
-    {{-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.green.min.css"/> --}}
 
 </head>
 <body>
@@ -118,23 +131,23 @@
             <div class="col-md-4 text-center">
                 <h3>Horario de Atención</h3>
 				<p>Lunes a Viernes<br>
-                08:00 hasta 12:00<br>
-                13:00 hasta 18:00<br>
+                07:30 hasta 12:00<br>
+                13:00 hasta 17:30<br>
 				</p>
             </div>
         </div>
         <div class="row rodape bg-dark">
             <div class="col-md-6">
                 <div class="text-center d-none d-md-block d-lg-block"> <!-- no aparece en pantallas chicas -->
-                    <strong>Copyright &copy; 2020</strong><a href="{{ route('inicio') }}"> PowerTrade.</a> <!-- Todo los derechos reservados. -->
+                    <strong>Copyright &copy; 2021</strong><a href="{{ route('inicio') }}"> PowerTrade.</a> <!-- Todo los derechos reservados. -->
                 </div>
             </div>
             <div class="col-md-6 text-center">
                 <span class="social-icons">
-                    <a href="https://wa.me/#" target="_blank"><i class="fa fa-whatsapp"></i></a>
-                    <a href="mailto:#" target="_blank"><i class="fa fa-envelope-o"></i></a>
-                    <a href="#" target="_blank"><i class="fa fa-facebook"></i></a>
-                    <a href="#" target="_blank"><i class="fa fa-instagram"></i></a>
+                    <a href="https://wa.me/595973170418" target="_blank"><i class="fa fa-whatsapp"></i></a>
+                    <a href="mailto:powertrade.cde@gmail.com" target="_blank"><i class="fa fa-envelope-o"></i></a>
+                    <a href="https://www.facebook.com/PowerTradePY" target="_blank"><i class="fa fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/powertradepy/" target="_blank"><i class="fa fa-instagram"></i></a>
                 </span>
             </div>
         </div>

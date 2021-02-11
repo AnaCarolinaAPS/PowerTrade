@@ -83,7 +83,7 @@
     <div class="container">
         <div class="row justify-content-center" style="padding: 50px 0px; ">
             {{-- <div class="col-md-10"> --}}
-                <div class="col-md-4">
+                <div class="col-md-4 servicios-cards">
                     <div class="card">
                         <div class="card-body text-center">
                             <span class="icon"><i class="fa fa-user-plus"></i></span>
@@ -94,7 +94,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 servicios-cards">
                     <div class="card">
                         <div class="card-body text-center">
                             <span class="icon"><i class="fa fa-shopping-basket"></i></span>
@@ -105,7 +105,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 servicios-cards">
                     <div class="card">
                         <div class="card-body text-center">
                             <span class="icon"><i class="fa fa-dropbox"></i></span>
