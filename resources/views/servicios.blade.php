@@ -191,8 +191,8 @@
                 <br>
                 <h3>Horario de Atención</h3>
 				<p>Lunes a Viernes<br>
-                08:00 hasta 12:00<br>
-                13:00 hasta 18:00<br>
+                07:30 hasta 12:00<br>
+                13:00 hasta 17:30<br>
                 </p>
                 <h3>Contactos</h3>
                 <p>+595 973 170 418 (Atendimiento)<br>

@@ -3,19 +3,24 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- MS Tile - for Microsoft apps-->
+    <meta name="msapplication-TileImage" content="http://www.powertrade.com.py/img/PowerTradeLogo.png">
     {{-- for google --}}
     <meta name="application-name" content="Power Trade PY">
     <meta name="Keywords" content="powertrade, power trade, power trade.py, ciudad del este, courier, importación de repuestos, repuestos de vehículos">
     {{-- for facebook --}}
     <meta name="og:title" content="Power Trade PY">
     <meta name="og:type" content="website">
-    <meta name="og:image" content="{{ asset('img/favicon.png') }}">
+    <meta name="og:image" content="http://www.powertrade.com.py/img/PowerTradeLogo.png">
+    <meta property="og:image:type" content="image/jpeg">
+    <meta property="og:image:width" content="300">
+    <meta property="og:image:height" content="300">
     <meta name="og:url" content="www.powertrade.com.py">
     <meta name="og:description" content="Courier especializado en importación de repuestos de vehículos.">
     {{-- for twitter --}}
     <meta name="twitter:card" content="summary">
     <meta name="twitter:title" content="Power Trade PY">
-    <meta name="twitter:image" content="{{ asset('img/favicon.png') }}">
+    <meta name="twitter:image" content="http://www.powertrade.com.py/img/PowerTradeLogo.png">
     <meta name="twitter:description" content="Courier especializado en importación de repuestos de vehículos.">
 
     <!-- CSRF Token -->
@@ -88,10 +93,9 @@
                             <a class="nav-link" href="{{ route('contacto') }}">Contacto <span class="sr-only"></span></a>
                         </li>
                     </ul>
-                    <div class="form-inline my-2 my-lg-0 navbar-nav">
+                    {{-- <div class="form-inline my-2 my-lg-0 navbar-nav">
                         @guest
-                            <a class="nav-link" href="{{ route('login') }}"><i class="fa fa-user-o" aria-hidden="true"></i> {{ __('Login') }}</a>
-                            {{-- <a href="ingresar.php" class="nav-link" > <i class="fa fa-user-o" aria-hidden="true"></i> Ingresar</a> --}}
+                            <a class="nav-link" href="{{ route('inicio') }}"><i class="fa fa-user-o" aria-hidden="true"></i> {{ __('Login') }}</a>
                         @else
                             <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
                                 {{ Auth::user()->name }}
@@ -109,7 +113,7 @@
                                 </form>
                             </div>
                         @endguest
-                    </div>
+                    </div> --}}
                 </div>
             </div>
         </nav>

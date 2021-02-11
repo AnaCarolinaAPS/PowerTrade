@@ -77,7 +77,7 @@
             <div class="content">
                 <img src="img/logo.png" class="img-responsive" style="max-width: 40%;">
                 <div class="subtitle m-b-md">
-                    Dentro de poco vamos a estrenar nuestro nuevo site, mientras eso, siganos en las redes sociales para más novedades.
+                    Dentro de poco vamos a estrenar nuestro nuevo sistema, mientras eso, siganos en las redes sociales para más novedades.
                 </div>
                 <div class="links">
                     <a href="https://www.facebook.com/PowerTradePY" target="_blank"><i class="fa fa-facebook"></i></a>
